@@ -1,0 +1,12 @@
+node_modules
+*.log
+.DS_Store
+*.env*.local
+.vercel
+.output
+.turbo
+coverage
+.vscode
+.idea
+public/assets/*.png
+public/assets/*.jpg
