@@ -1,0 +1,10 @@
+Dockerfile
+.dockerignore
+.git
+*.md
+README*
+LICENSE
+.env*
+tailwind.config.ts
+postcss.config.js
+tsconfig.json
