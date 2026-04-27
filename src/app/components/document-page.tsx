@@ -17,66 +17,67 @@ interface DocumentPageProps {
 export function DocumentPage({ onBack }: DocumentPageProps) {
   return (
     <TextPageLayout onBack={onBack}>
-      <TechHeading>Celestia AI Assistant - Technical Documentation</TechHeading>
+      <TechHeading>Lorem Ipsum Documentation</TechHeading>
       
       <TechParagraph>
-        Welcome to the comprehensive technical documentation for Celestia AI Assistant. 
-        This document provides detailed information about the system architecture, 
-        integration methods, and API usage for StarAtlas ecosystem.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod 
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       </TechParagraph>
 
       <TechSubheading>1. Introduction</TechSubheading>
       <TechParagraph>
-        Celestia is an advanced AI-powered assistant designed specifically for the StarAtlas 
-        metaverse. It leverages cutting-edge machine learning algorithms and blockchain 
-        technology to provide seamless navigation, resource management, and strategic guidance.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in 
+        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </TechParagraph>
 
       <TechSection>Key Features</TechSection>
       <TechList>
-        <TechListItem>Real-time market analysis and trading recommendations</TechListItem>
-        <TechListItem>Automated fleet management with AI-driven optimization</TechListItem>
-        <TechListItem>Advanced resource allocation algorithms</TechListItem>
-        <TechListItem>Predictive analytics for strategic decision-making</TechListItem>
-        <TechListItem>Integration with Solana blockchain for secure transactions</TechListItem>
+        <TechListItem>Lorem ipsum dolor sit amet, consectetur adipiscing</TechListItem>
+        <TechListItem>Sed do eiusmod tempor incididunt ut labore</TechListItem>
+        <TechListItem>Ut enim ad minim veniam, quis nostrud</TechListItem>
+        <TechListItem>Duis aute irure dolor in reprehenderit</TechListItem>
+        <TechListItem>Excepteur sint occaecat cupidatat non proident</TechListItem>
       </TechList>
 
       <TechSubheading>2. Getting Started</TechSubheading>
       
       <TechSection>Installation</TechSection>
       <TechParagraph>
-        To integrate Celestia into your StarAtlas environment, follow these steps:
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor 
+        incididunt ut labore et dolore magna aliqua.
       </TechParagraph>
 
       <TechCode>
-        {`npm install @celestia/ai-assistant
-        
-// Initialize Celestia
-import { Celestia } from '@celestia/ai-assistant';
+        {`npm install lorem-ipsum-package
 
-const assistant = new Celestia({
+// Initialize
+import { Lorem } from 'lorem-ipsum-package';
+
+const instance = new Lorem({
   apiKey: 'YOUR_API_KEY',
-  network: 'mainnet-beta',
+  network: 'mainnet',
   autoSync: true
 });`}
       </TechCode>
 
       <TechSection>Configuration</TechSection>
       <TechParagraph>
-        Configure your Celestia instance with the following parameters:
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </TechParagraph>
       <TechList>
         <TechListItem>
-          <TechHighlight>apiKey</TechHighlight> - Your unique API authentication key
+          <TechHighlight>apiKey</TechHighlight> - Lorem ipsum dolor sit amet
         </TechListItem>
         <TechListItem>
-          <TechHighlight>network</TechHighlight> - Solana network (mainnet-beta, testnet, devnet)
+          <TechHighlight>network</TechHighlight> - Lorem ipsum dolor sit amet
         </TechListItem>
         <TechListItem>
-          <TechHighlight>autoSync</TechHighlight> - Enable automatic data synchronization
+          <TechHighlight>autoSync</TechHighlight> - Lorem ipsum dolor sit amet
         </TechListItem>
         <TechListItem>
-          <TechHighlight>rpcEndpoint</TechHighlight> - Custom RPC endpoint (optional)
+          <TechHighlight>rpcEndpoint</TechHighlight> - Lorem ipsum dolor sit amet
         </TechListItem>
       </TechList>
 
@@ -84,26 +85,25 @@ const assistant = new Celestia({
       
       <TechSection>Core Methods</TechSection>
       <TechParagraph>
-        The Celestia API provides several core methods for interacting with the assistant:
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </TechParagraph>
 
       <TechCode>
-        {`// Get market analysis
-const analysis = await assistant.getMarketAnalysis({
-  asset: 'ATLAS',
+        {`// Get data
+const data = await instance.getData({
+  id: 'example',
   timeframe: '24h'
 });
 
-// Optimize fleet configuration
-const optimization = await assistant.optimizeFleet({
-  fleetId: 'your-fleet-id',
-  objective: 'maximize-efficiency'
+// Process
+const result = await instance.process({
+  input: 'data-id',
+  mode: 'standard'
 });
 
-// Predict resource requirements
-const forecast = await assistant.predictResources({
-  duration: '7d',
-  activities: ['mining', 'trading']
+// Fetch
+const response = await instance.fetch({
+  endpoint: '/api/example'
 });`}
       </TechCode>
 
@@ -111,59 +111,58 @@ const forecast = await assistant.predictResources({
       
       <TechSection>Custom Strategies</TechSection>
       <TechParagraph>
-        Celestia supports custom trading and management strategies. You can define your own 
-        logic using our strategy builder:
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </TechParagraph>
 
       <TechCode>
-        {`const customStrategy = assistant.createStrategy({
-  name: 'aggressive-growth',
+        {`const customStrategy = instance.createStrategy({
+  name: 'custom-strategy',
   rules: [
-    { condition: 'price < 0.01', action: 'buy', amount: 1000 },
-    { condition: 'profit > 15%', action: 'sell', amount: 'all' }
+    { condition: 'value > 100', action: 'process', amount: 50 },
+    { condition: 'result > 10%', action: 'output', amount: 'all' }
   ],
-  riskLevel: 'high'
+  riskLevel: 'medium'
 });
 
-await assistant.deployStrategy(customStrategy);`}
+await instance.deployStrategy(customStrategy);`}
       </TechCode>
 
       <TechSection>Event Listeners</TechSection>
       <TechParagraph>
-        Monitor real-time events and notifications:
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </TechParagraph>
 
       <TechCode>
-        {`assistant.on('market-alert', (alert) => {
-  console.log('Market Alert:', alert);
+        {`instance.on('event-name', (data) => {
+  console.log('Event:', data);
 });
 
-assistant.on('resource-low', (resource) => {
-  console.log('Low Resource:', resource);
+instance.on('notification', (message) => {
+  console.log('Notification:', message);
 });`}
       </TechCode>
 
       <TechSubheading>5. Best Practices</TechSubheading>
       <TechParagraph>
-        For optimal performance and security, follow these recommended practices:
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </TechParagraph>
       <TechList>
-        <TechListItem>Always use environment variables for API keys</TechListItem>
-        <TechListItem>Implement proper error handling for all async operations</TechListItem>
-        <TechListItem>Enable rate limiting to prevent API throttling</TechListItem>
-        <TechListItem>Regularly update to the latest version for security patches</TechListItem>
-        <TechListItem>Use webhooks for real-time notifications instead of polling</TechListItem>
+        <TechListItem>Lorem ipsum dolor sit amet, consectetur adipiscing</TechListItem>
+        <TechListItem>Sed do eiusmod tempor incididunt ut labore</TechListItem>
+        <TechListItem>Ut enim ad minim veniam, quis nostrud</TechListItem>
+        <TechListItem>Duis aute irure dolor in reprehenderit</TechListItem>
+        <TechListItem>Excepteur sint occaecat cupidatat non proident</TechListItem>
       </TechList>
 
       <TechSubheading>6. Support & Resources</TechSubheading>
       <TechParagraph>
-        For additional help and resources, please visit our official channels:
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </TechParagraph>
       <TechList>
-        <TechListItem>Documentation: https://docs.celestia.ai</TechListItem>
-        <TechListItem>GitHub Repository: https://github.com/celestia-ai</TechListItem>
-        <TechListItem>Discord Community: discord.gg/celestia</TechListItem>
-        <TechListItem>Email Support: support@celestia.ai</TechListItem>
+        <TechListItem>Documentation: https://example.com/docs</TechListItem>
+        <TechListItem>GitHub Repository: https://github.com/example</TechListItem>
+        <TechListItem>Discord Community: discord.gg/example</TechListItem>
+        <TechListItem>Email Support: support@example.com</TechListItem>
       </TechList>
     </TextPageLayout>
   );
