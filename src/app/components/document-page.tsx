@@ -46,105 +46,48 @@ export function DocumentPage({ onBack }: DocumentPageProps) {
       <TechSection>Installation</TechSection>
       <TechParagraph>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor 
-        incididunt ut labore et dolore magna aliqua.
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
       </TechParagraph>
-
-      <TechCode>
-        {`npm install lorem-ipsum-package
-
-// Initialize
-import { Lorem } from 'lorem-ipsum-package';
-
-const instance = new Lorem({
-  apiKey: 'YOUR_API_KEY',
-  network: 'mainnet',
-  autoSync: true
-});`}
-      </TechCode>
 
       <TechSection>Configuration</TechSection>
       <TechParagraph>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor 
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       </TechParagraph>
-      <TechList>
-        <TechListItem>
-          <TechHighlight>apiKey</TechHighlight> - Lorem ipsum dolor sit amet
-        </TechListItem>
-        <TechListItem>
-          <TechHighlight>network</TechHighlight> - Lorem ipsum dolor sit amet
-        </TechListItem>
-        <TechListItem>
-          <TechHighlight>autoSync</TechHighlight> - Lorem ipsum dolor sit amet
-        </TechListItem>
-        <TechListItem>
-          <TechHighlight>rpcEndpoint</TechHighlight> - Lorem ipsum dolor sit amet
-        </TechListItem>
-      </TechList>
 
       <TechSubheading>3. API Reference</TechSubheading>
       
       <TechSection>Core Methods</TechSection>
       <TechParagraph>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor 
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
       </TechParagraph>
-
-      <TechCode>
-        {`// Get data
-const data = await instance.getData({
-  id: 'example',
-  timeframe: '24h'
-});
-
-// Process
-const result = await instance.process({
-  input: 'data-id',
-  mode: 'standard'
-});
-
-// Fetch
-const response = await instance.fetch({
-  endpoint: '/api/example'
-});`}
-      </TechCode>
 
       <TechSubheading>4. Advanced Usage</TechSubheading>
       
       <TechSection>Custom Strategies</TechSection>
       <TechParagraph>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor 
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       </TechParagraph>
-
-      <TechCode>
-        {`const customStrategy = instance.createStrategy({
-  name: 'custom-strategy',
-  rules: [
-    { condition: 'value > 100', action: 'process', amount: 50 },
-    { condition: 'result > 10%', action: 'output', amount: 'all' }
-  ],
-  riskLevel: 'medium'
-});
-
-await instance.deployStrategy(customStrategy);`}
-      </TechCode>
 
       <TechSection>Event Listeners</TechSection>
       <TechParagraph>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in 
+        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
       </TechParagraph>
-
-      <TechCode>
-        {`instance.on('event-name', (data) => {
-  console.log('Event:', data);
-});
-
-instance.on('notification', (message) => {
-  console.log('Notification:', message);
-});`}
-      </TechCode>
 
       <TechSubheading>5. Best Practices</TechSubheading>
       <TechParagraph>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor 
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       </TechParagraph>
       <TechList>
         <TechListItem>Lorem ipsum dolor sit amet, consectetur adipiscing</TechListItem>
@@ -156,14 +99,11 @@ instance.on('notification', (message) => {
 
       <TechSubheading>6. Support & Resources</TechSubheading>
       <TechParagraph>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod 
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+        commodo consequat.
       </TechParagraph>
-      <TechList>
-        <TechListItem>Documentation: https://example.com/docs</TechListItem>
-        <TechListItem>GitHub Repository: https://github.com/example</TechListItem>
-        <TechListItem>Discord Community: discord.gg/example</TechListItem>
-        <TechListItem>Email Support: support@example.com</TechListItem>
-      </TechList>
     </TextPageLayout>
   );
 }

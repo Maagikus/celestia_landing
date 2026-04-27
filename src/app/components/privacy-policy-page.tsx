@@ -173,13 +173,6 @@ export function PrivacyPolicyPage({ onBack }: PrivacyPolicyPageProps) {
         tempor incididunt ut labore et dolore magna aliqua.
       </FormalParagraph>
 
-      <FormalParagraph>
-        Lorem Ipsum Company<br />
-        Email: support@example.com<br />
-        Address: 123 Lorem Street, Ipsum City<br />
-        Response Time: Within 48 hours for all inquiries
-      </FormalParagraph>
-
       <FormalQuote>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt 
         ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
