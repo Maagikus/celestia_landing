@@ -8,5 +8,3 @@ node_modules
 coverage
 .vscode
 .idea
-public/assets/*.png
-public/assets/*.jpg
